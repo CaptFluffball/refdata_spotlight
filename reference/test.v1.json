@@ -1,0 +1,30 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "test",
+    "version": "1.0",
+    "description": "Testing link between spotlight and git",
+    "contact": {
+      "name": "Captain Fluffball"
+    }
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "tags": [
+    {
+      "name": "location data",
+      "description": "Location stuff will appear under this tag"
+    },
+    {
+      "name": "currency data",
+      "description": "Currency stuff will appear under this tag"
+    }
+  ],
+  "paths": {},
+  "components": {
+    "schemas": {}
+  }
+}
